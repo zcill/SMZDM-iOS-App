@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ZCRootViewController.h"
+#import "ZCQuickCreate.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController *navi1 = [[UINavigationController alloc] initWithRootViewController:[[ZCRootViewController alloc] init]];
+    UINavigationController *navi2 = [[UINavigationController alloc] initWithRootViewController:[[ZCRootViewController alloc] init]];
+    UINavigationController *navi3 = [[UINavigationController alloc] initWithRootViewController:[[ZCRootViewController alloc] init]];
+    UINavigationController *navi4 = [[UINavigationController alloc] initWithRootViewController:[[ZCRootViewController alloc] init]];
+    
+    ZCQuickTabBar *tab = [[ZCQuickTabBar alloc] init];
+    tab.viewControllers = @[navi1, navi2, navi3, navi4];
+    
+    self.window.rootViewController = tab;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

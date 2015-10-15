@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1857A62F-C0F9-4F1F-9D08-75A59BA471CB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>什么值得买</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE</key>
+		<string>https://github.com/zcill/ZCQuickCreate.git</string>
+		<key>BE0E83FBF970ABBAA86929454C7261477A3FA203</key>
+		<string>https://github.com/zcill/SMZDM-iOS-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>什么值得买.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE</key>
+		<string>..ZCQuickCreate/</string>
+		<key>BE0E83FBF970ABBAA86929454C7261477A3FA203</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zcill/SMZDM-iOS-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE0E83FBF970ABBAA86929454C7261477A3FA203</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE0E83FBF970ABBAA86929454C7261477A3FA203</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97%E4%B9%B0</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>62AFCD22C1EED49F4A7A1C2577E21F6BB0C4CFAE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZCQuickCreate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
